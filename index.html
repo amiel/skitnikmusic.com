@@ -75,6 +75,15 @@
 
   <body>
 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=216683008428686";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <div class="topbar">
       <div class="fill">
         <div class="container">
@@ -96,7 +105,7 @@
           <h1>Eclectic <small>Balkan-Inspired</small> Music</h1>
         </div>
         <div class="row">
-          <div class="span10">
+          <div class="span8">
 
             <h3>Upcoming shows</h3>
 
@@ -117,12 +126,10 @@
             <p>Hope to see you there!</p>
 
           </div>
-          <div class="span4">
-            <h3>Hey, here's a website</h3>
-            <p>
-              There's pretty much nothing here, but now there's a place for us to post upcoming
-              shows so that you know where to find us.
-            </p>
+          <div class="span6">
+
+            <div class="fb-like-box" data-href="http://www.facebook.com/skitnikmusic" data-width="300" data-show-faces="true" data-stream="true" data-header="true"></div>
+
           </div>
         </div>
       </div>
