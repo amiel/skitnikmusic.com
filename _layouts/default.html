@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap_stuff.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" charset="utf-8">
+
+    <!--
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+    -->
+  </head>
+
+  <body>
+    {% include facebook.html %}
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="#">Skitnik</a>
+          <ul class="nav">
+            <li{% if page.url == "/index.html" %} class="active"{% endif %}><a href="/">Home</a></li>
+            <li{% if page.url == "/about.html" %} class="active"{% endif %}><a href="about.html">About</a></li>
+<!--            <li><a href="#contact">Contact</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <div class="page-header">
+          <h1>Eclectic <small>Balkan-Inspired</small> Music</h1>
+        </div>
+        <div class="row">
+          {{ content }}
+        </div>
+      </div>
+
+      <footer>
+<!--        <p>&copy; Company 2011</p> -->
+      </footer>
+
+    </div>
+
+
+    {% include analytics.html %}
+
+  </body>
+</html>
