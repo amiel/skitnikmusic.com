@@ -1,5 +1,7 @@
 
-body{ background: url(../images/frenchstucco.png); height: 100%; }
+
+html, body{ min-height: 100%; height: 100%; }
+body{ background: url(../images/frenchstucco.png); }
 
 .fb-like-box{
   margin-left: 40px;
