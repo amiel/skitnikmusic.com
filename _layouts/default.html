@@ -33,10 +33,21 @@
         <div class="container">
           <!-- <a class="brand" href="#">Skitnik</a> -->
           <ul class="nav">
-            <li{% if page.url == "/index.html" %} class="active"{% endif %}><a href="/">Home</a></li>
-            <li{% if page.url == "/about.html" %} class="active"{% endif %}><a href="about.html">About</a></li>
-            <li{% if page.url == "/newsletter.html" %} class="active"{% endif %}><a href="newsletter.html">Newsletter</a></li>
-<!--            <li><a href="#contact">Contact</a></li> -->
+            <li{% if page.url == "/index.html" %} class="active"{% endif %}>
+              <a href="/">Home</a>
+            </li>
+
+            <li{% if page.url == "/about.html" %} class="active"{% endif %}>
+              <a href="about.html">About</a>
+            </li>
+
+            <li{% if page.url == "/video.html" %} class="active"{% endif %}>
+              <a href="video.html">Video</a>
+            </li>
+
+            <li{% if page.url == "/newsletter.html" %} class="active"{% endif %}>
+              <a href="newsletter.html">Newsletter</a>
+            </li>
           </ul>
         </div>
       </div>
