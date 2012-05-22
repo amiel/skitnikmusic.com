@@ -14,9 +14,9 @@ h6{ color: #96B49C; }
 .topbar .fill{ background: #5B5847; }
 
 .page-header{ overflow: hidden; /*background-color: #96B49C;*/ }
-  .page-header h1{
-    text-indent: -999em; width: 150px; height: 90px; float: left;
-    background: url(../images/skitnik_logo_small.png) no-repeat center center;
+  .page-header{
+    text-indent: -999em; width: 820px; height: 94px; float: left;
+    background: url(../images/header.png) no-repeat center center;
   }
   .page-header h2{ float: left; line-height: 85px; font-size: 2.1em; padding-left: 24px; /*color: #5B5847;*/ }
     /*.page-header h2 small{ color: #5B5847; }*/
