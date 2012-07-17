@@ -10,6 +10,7 @@ body{ background: url(../images/frenchstucco.png); }
 
 a{ color: #CC5D4C; }
 h6{ color: #96B49C; }
+h6 small{ font-variant: normal; }
 
 .topbar .fill{ background: #5B5847; }
 
