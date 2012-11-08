@@ -30,6 +30,6 @@ h6 small{ font-variant: normal; }
 #mc_embed_signup{ background: #fff; clear: left; font: 14px Helvetica,Arial,sans-serif; }
   #mc_embed_signup label{ float: none; text-align: left; width: 100%; }
 
-dl.musicians{ overflow: hidden }
-  dl.musicians dt{ font-weight: bold; float: left: clear: both; width: 9em }
+dl.musicians{ overflow: hidden; }
+  dl.musicians dt{ font-weight: bold; float: left; clear: both; width: 9em; }
   dl.musicians dd{ float: left; }
