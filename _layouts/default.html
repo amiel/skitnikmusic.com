@@ -7,7 +7,7 @@
     <meta name="author" content="">
 
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
@@ -25,44 +25,46 @@
   <body>
     {% include facebook.html %}
 
-    <div class="topbar">
-      <div class="fill">
-        <div class="container">
-          <!-- <a class="brand" href="#">Skitnik</a> -->
-          <ul class="nav">
-            <li{% if page.url == "/index.html" %} class="active"{% endif %}>
-              <a href="/">Home</a>
-            </li>
-
-            <li{% if page.url == "/about.html" %} class="active"{% endif %}>
-              <a href="about.html">About</a>
-            </li>
-
-            <li{% if page.url == "/video.html" %} class="active"{% endif %}>
-              <a href="video.html">Video</a>
-            </li>
-
-            <li{% if page.url == "/connect.html" %} class="active"{% endif %}>
-              <a href="connect.html">Connect</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
     <div class="container">
+
+
       <div class="content">
         <div class="page-header">
           <h1>Skitnik</h1>
           <h2>Eclectic <small>Balkan-Inspired</small> Music</h2>
         </div>
+
+
+      </div>
+
+      <ul class="tabs">
+        <li{% if page.url == "/index.html" %} class="active"{% endif %}>
+          <a href="/">Home</a>
+        </li>
+
+        <li{% if page.url == "/about.html" %} class="active"{% endif %}>
+          <a href="about.html">About</a>
+        </li>
+
+        <li{% if page.url == "/video.html" %} class="active"{% endif %}>
+          <a href="video.html">Video</a>
+        </li>
+
+        <li{% if page.url == "/connect.html" %} class="active"{% endif %}>
+          <a href="connect.html">Connect</a>
+        </li>
+      </ul>
+
+      <div class="content">
+
+
         <div class="row">
           {{ content }}
         </div>
       </div>
 
       <footer>
-<!--        <p>&copy; Company 2011</p> -->
+        <!--        <p>&copy; Company 2011</p> -->
       </footer>
 
     </div>
