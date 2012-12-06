@@ -24,6 +24,7 @@ h6 small{ font-variant: normal; }
 
 /*.content{ background: url(../images/frenchstucco.png); }*/
 
+#quotes{ overflow: visible; height: 3em; }
 
 .fb-like-box{ background-color: #fff; margin-left: 40px; }
 
