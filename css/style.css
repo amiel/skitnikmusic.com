@@ -34,3 +34,6 @@ h6 small{ font-variant: normal; }
 dl.musicians{ overflow: hidden; }
   dl.musicians dt{ font-weight: bold; float: left; clear: both; width: 9em; }
   dl.musicians dd{ float: left; }
+
+
+#skitnikhouette{ margin-top: 40px; }
