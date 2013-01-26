@@ -46,8 +46,16 @@
           <a href="about.html">About</a>
         </li>
 
+        <li{% if page.url == "/music.html" %} class="active"{% endif %}>
+          <a href="music.html">Music</a>
+        </li>
+
         <li{% if page.url == "/video.html" %} class="active"{% endif %}>
           <a href="video.html">Video</a>
+        </li>
+
+        <li{% if page.url == "/photos.html" %} class="active"{% endif %}>
+          <a href="photos.html">Photos</a>
         </li>
 
         <li{% if page.url == "/connect.html" %} class="active"{% endif %}>
