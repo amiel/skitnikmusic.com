@@ -1,5 +1,3 @@
 source :rubygems
 
-gem 'jekyll'
-gem 'rb-fsevent'
-gem 'guard-jekyll'
+gem 'github-pages'
